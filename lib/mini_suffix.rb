@@ -6,6 +6,7 @@ module MiniSuffix
 
   ffi_lib [
     File.join(File.dirname(File.expand_path('..', __FILE__)), 'vendor/libpsl.so'),
+    File.join(File.dirname(File.expand_path('..', __FILE__)), 'vendor/libpsl_aarch64.so'),
     File.join(File.dirname(File.expand_path('..', __FILE__)), 'vendor/libpsl.dylib'),
   ]
 
